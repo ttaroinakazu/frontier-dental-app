@@ -164,7 +164,14 @@ Optional Query Parameters:
 
 Success Response:
 
-json { "wishlist": { "id": 1, "name": "John's Wishlist", "user_id": 1, "created_at": "2024-03-XX", "updated_at": "2024-03-XX", "products": { "data": [ {  } ]} }
+json { "wishlist": { "id": 1, "name": "John's Wishlist", "user_id": 1, "created_at": "2024-03-XX", "updated_at": "2024-03-XX", "products": { "data": [ {
+                "id": 1,
+                "name": "Product ut",
+                "price": "108.53",
+                "description": "Voluptatem unde voluptatem quas. Sequi quaerat rerum facilis vel deserunt minus qui magnam. Laborum culpa quo consequatur voluptatem. Qui occaecati quas provident fugiat ad neque.",
+                "created_at": "2025-07-11T01:21:27.000000Z",
+                "updated_at": "2025-07-11T01:21:27.000000Z"
+            } ]} }
 
 
 
