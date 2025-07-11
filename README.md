@@ -1,4 +1,4 @@
-# frontier-dental-app# Laravel Authentication API
+Frontier Dental E-Commerce App
 
 A robust authentication API implementation using Laravel 12 with Sanctum authentication.
 
