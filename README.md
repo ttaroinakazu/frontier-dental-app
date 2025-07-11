@@ -141,7 +141,7 @@ Optional Query Parameters:
 
 Success Response:
 
-json { "message": "List of products", "products": { "data": [ {  }, "meta": { "current_page": 1, "last_page": 5, "per_page": 15, "total": 75 } }
+json { "message": "List of products", "products": { "data": [ {  }, "meta": { "current_page": 1, "last_page": 5, "per_page": 15, "total": 75 } ]}
 
 
 
@@ -157,7 +157,7 @@ Optional Query Parameters:
 
 Success Response:
 
-json { "wishlist": { "id": 1, "name": "John's Wishlist", "user_id": 1, "created_at": "2024-03-XX", "updated_at": "2024-03-XX", "products": { "data": [ {  } } }
+json { "wishlist": { "id": 1, "name": "John's Wishlist", "user_id": 1, "created_at": "2024-03-XX", "updated_at": "2024-03-XX", "products": { "data": [ {  } ]} }
 
 
 
@@ -169,7 +169,7 @@ json { "status": "error", "message": "No wishlist found" }
 ### Add to Wishlist
 
 http POST /api/v1/wishlist Authorization: Bearer {token} Content-Type: application/json
-{ "name": "My Custom Wishlist", // optional "products": [ {  }
+{ "name": "My Custom Wishlist", // optional "products": [ { "id": 1, id: 2 }]}
 
  
 
