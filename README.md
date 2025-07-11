@@ -141,7 +141,14 @@ Optional Query Parameters:
 
 Success Response:
 
-json { "message": "List of products", "products": { "data": [ {  }, "meta": { "current_page": 1, "last_page": 5, "per_page": 15, "total": 75 } ]}
+json { "message": "List of products", "products": { "data": [ {
+                "id": 1,
+                "name": "Product ut",
+                "price": "108.53",
+                "description": "Voluptatem unde voluptatem quas. Sequi quaerat rerum facilis vel deserunt minus qui magnam. Laborum culpa quo consequatur voluptatem. Qui occaecati quas provident fugiat ad neque.",
+                "created_at": "2025-07-11T01:21:27.000000Z",
+                "updated_at": "2025-07-11T01:21:27.000000Z"
+            } ], "meta": { "current_page": 1, "last_page": 5, "per_page": 15, "total": 75 } }
 
 
 
